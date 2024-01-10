@@ -22,6 +22,6 @@ Next step, you can execute rg.ps1 script to create your first Azure Resource gro
 Type your resource group name in the terminal
 
 
-If you want to create your first Linux VM in Azure -> execute vm.ps1: **.\vm.ps1** and insert all needed parameters
+If you want to create your first Linux VM in Azure -> execute vm.ps1 in your terminal -> **.\vm.ps1** and insert all needed parameters
 
-The same procedure can be done to create your first Windows Server VM in Azure -> execute vm2.ps1: **.\vm2.ps1** and insert all needed parameters
+The same procedure can be done to create your first Windows Server VM in Azure -> execute vm2.ps1 in your Terminal ->  **.\vm2.ps1** and insert all needed parameters
