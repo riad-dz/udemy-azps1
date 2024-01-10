@@ -11,7 +11,7 @@ Open your Powershell Terminal as an Administrator, then type:
 
 - **Install-Module -Name Az -Repository PSGallery -Force**
 
-# Scripts summary with execution steps #
+# Scripts & Execution steps #
 
 ## Connect-AzAccount ##
 Connect to your Azure Tenant by using **Connect-AzAccount** command in your Powershell Terminal: 
