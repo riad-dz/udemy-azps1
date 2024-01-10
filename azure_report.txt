@@ -1,0 +1,35 @@
+########## Total number of Resources ##########
+
+Total number of resources in the RG --> 15
+
+####### Description of Azure Resources  ##########
+    Name:  az-vm-training      |      ResourceType:  virtualNetworks     |     Location:  northeurope
+
+    Name:  az-vm2      |      ResourceType:  virtualNetworks     |     Location:  northeurope
+
+    Name:  az-vm2_OsDisk_1_b9b50ed377734c27b09035312af5dac3      |      ResourceType:  disks     |     Location:  northeurope
+
+    Name:  az-vm-training      |      ResourceType:  networkSecurityGroups     |     Location:  northeurope
+
+    Name:  ip2      |      ResourceType:  publicIPAddresses     |     Location:  northeurope
+
+    Name:  sshkey      |      ResourceType:  sshPublicKeys     |     Location:  northeurope
+
+    Name:  az-vm2      |      ResourceType:  virtualMachines     |     Location:  northeurope
+
+    Name:  ip-public      |      ResourceType:  publicIPAddresses     |     Location:  northeurope
+
+    Name:  az-vm2-datadisk      |      ResourceType:  disks     |     Location:  northeurope
+
+    Name:  az-vm-training      |      ResourceType:  virtualMachines     |     Location:  northeurope
+
+    Name:  az-vm-training_OsDisk_1_dfb5196c6e5c4b9cbd6d1ebeaa07b101      |      ResourceType:  disks     |     Location:  northeurope
+
+    Name:  AZ-VM-TRAINING/AADSSHLoginForLinux      |      ResourceType:  virtualMachines     |     Location:  northeurope
+
+    Name:  az-vm2      |      ResourceType:  networkSecurityGroups     |     Location:  northeurope
+
+    Name:  az-vm-training      |      ResourceType:  networkInterfaces     |     Location:  northeurope
+
+    Name:  az-vm2      |      ResourceType:  networkInterfaces     |     Location:  northeurope
+

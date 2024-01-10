@@ -1,63 +1,29 @@
 # udemy-azps1 repository
 
 Powershell scripts of Udemy course "Deploying your first infrastructure in Azure with Powershell"
+Link to the course -> 
 
 
+# Installation of Azure Powershell modules
 
-# Course Description #
+Open your Powershell Terminal as an Administrator, then type: **Install-Module -Name Az -Repository PSGallery -Force**
 
-This course can be taken by absolute beginners including candidates with non-technical backgrounds, such as those involved in selling or purchasing cloud-based solutions and services, or who have some involvement with cloud-based solutions and services.
+# Scripts summary with execution steps #
 
-The course is intended to help people learn Azure concepts and Automation with Powershell quickly and give enough practice  to get them started with their cloud journey with a specific focus on Microsoft Azure.
+First of all, you have to connect to your Azure Tenant by using **Connect-AzAccount** command in your Powershell Terminal (and use your credentials): 
 
+**Set-ExecutionPolicy -Score CurrentUser Unrestricted** 
+**Connect-AzAccount**
 
-What you'll learn in this course
+Then you can connect to your Azure Subscription, use **az_context.ps1** script in your terminal (you can also use az_context2.ps1): 
+**az_context.ps1 "precise_your_azure_subscription_id"**
 
-
--Understand what is Cloud Computing
-
--Introduction to Azure
-
--Create an Azure free account
-
--Install Visual Studio Code
-
--Install Azure powershell modules
-
--Connect to Azure via Powershell
-
--Create Azure Resource Groups in Azure
-
--Deploy your first infrastructure automatically with Powershell scripts
-
--Manage your infrastructure with Powershell
-
--Connect to your infrastructure using RDP and SSH 
-
--Create and Practice on Azure Cloud Shell
-
--Create and Attach Azure Disks to a VM in Azure
-
--Automate a basic report of your Azure Resources with Powershell
-
--Delete your Resource Group and Azure Resources
+Next step, you can execute rg.ps1 script to create your first Azure Resource group: **.\rg.ps1**
+Type your resource group name in the terminal
 
 
+If you want to create your first Linux VM in Azure -> execute vm.ps1: **.\vm.ps1** and insert all needed parameters
 
-Who this course is for
+The same procedure can be done to create your first Windows Server VM in Azure -> execute vm2.ps1: **.\vm2.ps1** and insert all needed parameters
 
 
-
--Anyone who wants to build carrier in Cloud Services
-
--Aspirants who are looking forward to grow in their carrier
-
--System Administrators
-
--IT Employees of an Azure Based IT Organization
-
--Prerequisites
-
--Basic understanding of Cloud Computing
-
--Working in Windows environment
