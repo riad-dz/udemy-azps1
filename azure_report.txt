@@ -32,4 +32,3 @@ Total number of resources in the RG --> 15
     Name:  az-vm-training      |      ResourceType:  networkInterfaces     |     Location:  northeurope
 
     Name:  az-vm2      |      ResourceType:  networkInterfaces     |     Location:  northeurope
-
