@@ -1,12 +1,15 @@
 # Repository's utility #
 
 This Github repo contains all powershell scripts needed to practice the Udemy course: **Deploying your first infrastructure in Azure with Powershell**
+
 URL of the course: https://www.udemy.com/course/deploying-your-first-infrastructure-in-azure-with-powershell
 
 
 # Installation of Azure Powershell modules
 
-Open your Powershell Terminal as an Administrator, then type: **Install-Module -Name Az -Repository PSGallery -Force**
+Open your Powershell Terminal as an Administrator, then type: 
+
+- **Install-Module -Name Az -Repository PSGallery -Force**
 
 # Scripts summary with execution steps #
 
