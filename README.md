@@ -10,17 +10,26 @@ Open your Powershell Terminal as an Administrator, then type: **Install-Module -
 
 # Scripts summary with execution steps #
 
-First of all, you have to connect to your Azure Tenant by using **Connect-AzAccount** command in your Powershell Terminal (and use your credentials): 
+## Connect-AzAccount ##
+Connect to your Azure Tenant by using **Connect-AzAccount** command in your Powershell Terminal: 
 
-**Set-ExecutionPolicy -Score CurrentUser Unrestricted** 
-**Connect-AzAccount**
+- **Set-ExecutionPolicy -Score CurrentUser Unrestricted** 
+- **Connect-AzAccount**
 
-Then you can connect to your Azure Subscription, use **az_context.ps1** script in your terminal (you can also use az_context2.ps1): 
+
+## Set-AzContext ##
+
+Connect to your Azure Subscription and set your Azure context, use **az_context.ps1** script in your terminal (you can also use az_context2.ps1): 
+
 **az_context.ps1 "precise_your_azure_subscription_id"**
 
-Next step, you can execute rg.ps1 script to create your first Azure Resource group: **.\rg.ps1**
+
+## Create Azure resource group ##
+
+Execute **rg.ps1 script** to create your first Azure Resource group ->  **.\rg.ps1**
 Type your resource group name in the terminal
 
+## Create Azure VM ##
 
 If you want to create your first Linux VM in Azure -> execute vm.ps1 in your terminal -> **.\vm.ps1** and insert all needed parameters
 
