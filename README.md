@@ -36,5 +36,6 @@ If you want to create your first Linux VM in Azure -> execute vm.ps1 in your ter
 -  **.\vm.ps1** 
 Insert all needed parameters
 
-The same procedure can be done to create your first Windows Server VM in Azure -> execute vm2.ps1 in your Terminal: - **.\vm2.ps1** 
+The same procedure can be done to create your first Windows Server VM in Azure -> execute vm2.ps1 in your Terminal: 
+- **.\vm2.ps1** 
 Insert all needed parameters
