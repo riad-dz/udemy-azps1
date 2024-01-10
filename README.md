@@ -47,4 +47,4 @@ Insert all needed parameters
 
 Create a report of your Azure resources, using **azure_report.ps1 script** (3 parameters to precise):
 
-- **.\azure_report.ps1 "Azure_Subscription_Id" "Azure_Tenant_Id" "Azure_resourcegroup_name"**
+- **.\azure_report.ps1**

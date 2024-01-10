@@ -65,6 +65,8 @@ function Create-AzureReport {
 
 }
 
+#### Input parameters needed ####
+
 $subscription_Id = Read-Host "Please, insert the Azure Subscription ID"
 $tenant_Id = Read-Host "Please, insert the Azure Tenant ID"
 $rg = Read-Host "Please, insert the Azure RG name"

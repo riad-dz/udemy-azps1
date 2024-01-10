@@ -9,7 +9,6 @@ $rg_exists= "false"
 while ($rg_exists -eq "false")
 
 {
-
 foreach ($rg in $resource_groups)
 {
   if ($rg.ResourceGroupName -eq $rg_name)
