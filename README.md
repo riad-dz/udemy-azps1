@@ -1,7 +1,7 @@
-# udemy-azps1 repository
+# Repository's utility #
 
-Powershell scripts of Udemy course "Deploying your first infrastructure in Azure with Powershell"
-Link to the course -> 
+This Github repo contains all powershell scripts needed to practice the Udemy course: **Deploying your first infrastructure in Azure with Powershell**
+URL of the course: https://www.udemy.com/course/deploying-your-first-infrastructure-in-azure-with-powershell
 
 
 # Installation of Azure Powershell modules
